@@ -55,6 +55,31 @@
      <input type = "submit" value ="SIGN UP TO OUR NEWSLETTER">
 </div>
 
+<h3> Featured Blog Posts 2020 </h3>
+<p> Click on the images below to check out where we've been recently!</p>
+<div class="row">
+  <div class="column">
+    <a href="./New Zealand HTML.html">
+    <img src="img-1536162697-1401-3228-p-95B514EA-DAAA-9CB0-6839532442B3132A-2544003__CropResizeWzUwMCwyODIsODUsImpwZyJd.jpg" alt="NZ" style="width: 400px; height: 300px;"></a>
+ <p>New Zealand</p>
+  </div>
+
+  <div class="column">
+    <a href="./South Korea HTML.html">
+   <!--<img src="Tea time.jpg" --> <img src="download.jpg" alt="SK" style="width: 400px; height: 300px;"></a>
+   <p>South Korea</p>
+  </div>
+
+  <div class="column">
+    <a href="./South Africa HTML.html">
+    <img src="south-africa-in-pictures-most-beautiful-places-to-visit-boulders-beach.jpg" alt="SA" style="width: 400px; height: 300px;"></a>
+    <p>South Africa</p>
+  </div>
+
+</div>
+</div>
+</div>
+
 
 </body>
 </html>
