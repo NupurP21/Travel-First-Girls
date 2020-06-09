@@ -1,13 +1,15 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="HomePage.css">
+    <link rel="stylesheet" href="Homepage.css">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <script src="HomePage.js"></script>
+    <script src="Homepage.js"></script>
     <link rel="icon" href="icon.png" type="image/gif" sizes="24x24">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<head>
+    <title>Welcome to Travel First Girls</title>
+</head>
 <body>
 
 <div class="navbar">
@@ -17,7 +19,7 @@
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="#">South Africa</a>
+      <a href="Southafrica.html">South Africa</a>
     </div>
   </div>
  <a href="#antarctica">Antarctica</a>
@@ -26,7 +28,7 @@
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-          <a href="#">South Korea</a>
+          <a href="Southkorea.html">South Korea</a>
         </div>
       </div>
  <div class="dropdown">
@@ -34,7 +36,7 @@
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-              <a href="#">New Zealand</a>
+              <a href="Newzealand.html">New Zealand</a>
     </div>
   </div>
 <a href="#europe">Europe</a>
@@ -44,14 +46,23 @@
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-          <a href="#">Chile</a>
+          <a href="Chile.html">Chile</a>
     </div>
   </div>
-<a href="#contactus">Contact Us</a>
+<a href="Contactus.html">Contact Us</a>
+  </div>
+  <div class="absolute">
+  <h2>Discover incredible destinations!</h2>
+  <!--The div element for the map -->
+  <div id="map"></div>
+  <!-- Replace the value of the key parameter with your own API key. -->
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxP7bOHCY7crGziyhYAgSJVHCULCV4wks&callback=myMap">
+  </script>
   </div>
 
 <div class = "container">
-     <h1>Travel First Girls!</h1>
+     <h1>Travel First Girls!<img src="icon.png" alt="TFG image" style="width:120px;height:120px;"></h1>
      <p>Calling all female travellers: visit our blog posts for the best travel tips and information on food, languages, and much more!</p>
      <form>
       <label for="name">Name:</label><br>
@@ -59,10 +70,42 @@
       <label for="email">Email address:</label><br>
       <input type="text" id="email" name="email" value="e.g.: girl@gmail.com"><br>      
       <button onclick="alert('Thank you for joining the Travel First Girls Newsletter!')">Sign up to our NEWSLETTER</button>
-
      </form>
+
+     <p>Click below and feel free to check out out our social media, feel free to send us a message or ask any questions!</p>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <a href="#" class="fa fa-facebook"></a>
+     <a href="#" class="fa fa-twitter"></a>
+     <a href="#" class="fa fa-instagram"></a>
 </div>
 
 
+<div class="row1">
+  <p><strong>Featured Blog Posts 2020! </strong><br>Click on the images below to check out where we've been recently!</p>
+  </div>
+  
+  <div class="row">
+    <div class="column">
+      <a href="Newzealand.html">
+        <img src="img-1536162697-1401-3228-p-95B514EA-DAAA-9CB0-6839532442B3132A-2544003__CropResizeWzUwMCwyODIsODUsImpwZyJd.jpg" alt="NZ" style="width: 200px; height: 150px;">
+      </a>
+      <div class="desc">New Zealand</div>
+    </div>
+
+    <div class="column">
+      <a href="Southafrica.html"> 
+        <img src="south-africa-in-pictures-most-beautiful-places-to-visit-boulders-beach.jpg" alt="SA" style="width: 200px; height: 150px;"> 
+      </a>
+      <div class="desc">South Africa</div>
+    </div>
+
+    <div class="column">
+      <a href="Southkorea.html">
+        <img src="Tea time.jpg" alt="SK" style="width: 200px; height: 150px;"> 
+      </a>
+      <div class="desc">South Korea</div>
+    </div>
+    
+  </div>
 </body>
 </html>
